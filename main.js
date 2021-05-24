@@ -73,7 +73,7 @@ const setupPosts = (data) => {
     });
     postList.innerHTML = html;
   } else {
-    postList.innerHTML = '<h4 class="text-white">Login to See Posts</h4>';
+    postList.innerHTML = '<h4 class="text-black">Login to see posts</h4>';
   }
 };
 
